@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A782BF11F2B2B4E00D956D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A782BF01F2B2B4E00D956D4 /* AppDelegate.swift */; };
+		1A782BF31F2B2B4E00D956D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A782BF21F2B2B4E00D956D4 /* ViewController.swift */; };
+		1A782BF61F2B2B4E00D956D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A782BF41F2B2B4E00D956D4 /* Main.storyboard */; };
+		1A782BF81F2B2B4E00D956D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A782BF71F2B2B4E00D956D4 /* Assets.xcassets */; };
+		1A782BFB1F2B2B4E00D956D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A782BF91F2B2B4E00D956D4 /* LaunchScreen.storyboard */; };
+		1A782C0E1F2B2DB700D956D4 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A782C0B1F2B2CB900D956D4 /* FirebaseDatabase.framework */; };
+		1A782C0F1F2B2DB700D956D4 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A782C061F2B2C7E00D956D4 /* FirebaseAnalytics.framework */; };
+		1A782C101F2B2DB700D956D4 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A782C051F2B2C7E00D956D4 /* FirebaseCore.framework */; };
+		1A782C111F2B2DB700D956D4 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A782C041F2B2C7E00D956D4 /* FirebaseCoreDiagnostics.framework */; };
+		1A782C121F2B2DB700D956D4 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A782C081F2B2C7F00D956D4 /* FirebaseInstanceID.framework */; };
+		1A782C131F2B2DB700D956D4 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A782C071F2B2C7E00D956D4 /* FirebaseNanoPB.framework */; };
+		1A782C141F2B2DB700D956D4 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A782C091F2B2C7F00D956D4 /* GoogleToolboxForMac.framework */; };
+		1A782C151F2B2DB700D956D4 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A782C0A1F2B2C7F00D956D4 /* nanopb.framework */; };
+		1A782C161F2B2F1000D956D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A782C021F2B2C0C00D956D4 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A782BED1F2B2B4E00D956D4 /* Hot in the Office.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hot in the Office.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A782BF01F2B2B4E00D956D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A782BF21F2B2B4E00D956D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A782BF51F2B2B4E00D956D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A782BF71F2B2B4E00D956D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A782BFA1F2B2B4E00D956D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A782BFC1F2B2B4E00D956D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A782C021F2B2C0C00D956D4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1A782C041F2B2C7E00D956D4 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		1A782C051F2B2C7E00D956D4 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		1A782C061F2B2C7E00D956D4 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		1A782C071F2B2C7E00D956D4 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		1A782C081F2B2C7F00D956D4 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		1A782C091F2B2C7F00D956D4 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		1A782C0A1F2B2C7F00D956D4 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		1A782C0B1F2B2CB900D956D4 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
+		1A782C0C1F2B2D2B00D956D4 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		1A782C0D1F2B2D2B00D956D4 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A782BEA1F2B2B4E00D956D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A782C141F2B2DB700D956D4 /* GoogleToolboxForMac.framework in Frameworks */,
+				1A782C0F1F2B2DB700D956D4 /* FirebaseAnalytics.framework in Frameworks */,
+				1A782C151F2B2DB700D956D4 /* nanopb.framework in Frameworks */,
+				1A782C111F2B2DB700D956D4 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				1A782C121F2B2DB700D956D4 /* FirebaseInstanceID.framework in Frameworks */,
+				1A782C131F2B2DB700D956D4 /* FirebaseNanoPB.framework in Frameworks */,
+				1A782C0E1F2B2DB700D956D4 /* FirebaseDatabase.framework in Frameworks */,
+				1A782C101F2B2DB700D956D4 /* FirebaseCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A782BE41F2B2B4E00D956D4 = {
+			isa = PBXGroup;
+			children = (
+				1A782BEF1F2B2B4E00D956D4 /* Hot in the Office */,
+				1A782BEE1F2B2B4E00D956D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A782BEE1F2B2B4E00D956D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A782BED1F2B2B4E00D956D4 /* Hot in the Office.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A782BEF1F2B2B4E00D956D4 /* Hot in the Office */ = {
+			isa = PBXGroup;
+			children = (
+				1A782BF01F2B2B4E00D956D4 /* AppDelegate.swift */,
+				1A782BF21F2B2B4E00D956D4 /* ViewController.swift */,
+				1A782BF41F2B2B4E00D956D4 /* Main.storyboard */,
+				1A782BF71F2B2B4E00D956D4 /* Assets.xcassets */,
+				1A782BF91F2B2B4E00D956D4 /* LaunchScreen.storyboard */,
+				1A782BFC1F2B2B4E00D956D4 /* Info.plist */,
+				1A782C021F2B2C0C00D956D4 /* GoogleService-Info.plist */,
+				1A782C031F2B2C7100D956D4 /* Frameworks */,
+			);
+			path = "Hot in the Office";
+			sourceTree = "<group>";
+		};
+		1A782C031F2B2C7100D956D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A782C0D1F2B2D2B00D956D4 /* Firebase.h */,
+				1A782C0C1F2B2D2B00D956D4 /* module.modulemap */,
+				1A782C0B1F2B2CB900D956D4 /* FirebaseDatabase.framework */,
+				1A782C061F2B2C7E00D956D4 /* FirebaseAnalytics.framework */,
+				1A782C051F2B2C7E00D956D4 /* FirebaseCore.framework */,
+				1A782C041F2B2C7E00D956D4 /* FirebaseCoreDiagnostics.framework */,
+				1A782C081F2B2C7F00D956D4 /* FirebaseInstanceID.framework */,
+				1A782C071F2B2C7E00D956D4 /* FirebaseNanoPB.framework */,
+				1A782C091F2B2C7F00D956D4 /* GoogleToolboxForMac.framework */,
+				1A782C0A1F2B2C7F00D956D4 /* nanopb.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A782BEC1F2B2B4E00D956D4 /* Hot in the Office */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A782BFF1F2B2B4E00D956D4 /* Build configuration list for PBXNativeTarget "Hot in the Office" */;
+			buildPhases = (
+				1A782BE91F2B2B4E00D956D4 /* Sources */,
+				1A782BEA1F2B2B4E00D956D4 /* Frameworks */,
+				1A782BEB1F2B2B4E00D956D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hot in the Office";
+			productName = "Hot in the Office";
+			productReference = 1A782BED1F2B2B4E00D956D4 /* Hot in the Office.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A782BE51F2B2B4E00D956D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Rantmedia;
+				TargetAttributes = {
+					1A782BEC1F2B2B4E00D956D4 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 1A782BE81F2B2B4E00D956D4 /* Build configuration list for PBXProject "Hot in the Office" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A782BE41F2B2B4E00D956D4;
+			productRefGroup = 1A782BEE1F2B2B4E00D956D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A782BEC1F2B2B4E00D956D4 /* Hot in the Office */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A782BEB1F2B2B4E00D956D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A782BFB1F2B2B4E00D956D4 /* LaunchScreen.storyboard in Resources */,
+				1A782C161F2B2F1000D956D4 /* GoogleService-Info.plist in Resources */,
+				1A782BF81F2B2B4E00D956D4 /* Assets.xcassets in Resources */,
+				1A782BF61F2B2B4E00D956D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A782BE91F2B2B4E00D956D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A782BF31F2B2B4E00D956D4 /* ViewController.swift in Sources */,
+				1A782BF11F2B2B4E00D956D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A782BF41F2B2B4E00D956D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A782BF51F2B2B4E00D956D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A782BF91F2B2B4E00D956D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A782BFA1F2B2B4E00D956D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A782BFD1F2B2B4E00D956D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A782BFE1F2B2B4E00D956D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A782C001F2B2B4E00D956D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R3NMXDKAQ7;
+				FRAMEWORK_SEARCH_PATHS = "\"${PROJECT_DIR}/Hot in the Office/Frameworks\"";
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Hot in the Office/Frameworks\"";
+				INFOPLIST_FILE = "Hot in the Office/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rantmedia.Hot-in-the-Office";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A782C011F2B2B4E00D956D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R3NMXDKAQ7;
+				FRAMEWORK_SEARCH_PATHS = "\"${PROJECT_DIR}/Hot in the Office/Frameworks\"";
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Hot in the Office/Frameworks\"";
+				INFOPLIST_FILE = "Hot in the Office/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rantmedia.Hot-in-the-Office";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A782BE81F2B2B4E00D956D4 /* Build configuration list for PBXProject "Hot in the Office" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A782BFD1F2B2B4E00D956D4 /* Debug */,
+				1A782BFE1F2B2B4E00D956D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A782BFF1F2B2B4E00D956D4 /* Build configuration list for PBXNativeTarget "Hot in the Office" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A782C001F2B2B4E00D956D4 /* Debug */,
+				1A782C011F2B2B4E00D956D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A782BE51F2B2B4E00D956D4 /* Project object */;
+}
