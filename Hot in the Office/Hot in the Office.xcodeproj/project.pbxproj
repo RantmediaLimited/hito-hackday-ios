@@ -325,6 +325,7 @@
 				FRAMEWORK_SEARCH_PATHS = "\"${PROJECT_DIR}/Hot in the Office/Frameworks\"";
 				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Hot in the Office/Frameworks\"";
 				INFOPLIST_FILE = "Hot in the Office/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rantmedia.Hot-in-the-Office";
@@ -342,6 +343,7 @@
 				FRAMEWORK_SEARCH_PATHS = "\"${PROJECT_DIR}/Hot in the Office/Frameworks\"";
 				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Hot in the Office/Frameworks\"";
 				INFOPLIST_FILE = "Hot in the Office/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rantmedia.Hot-in-the-Office";
