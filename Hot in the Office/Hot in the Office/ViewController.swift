@@ -119,7 +119,8 @@ class ViewController: UIViewController, UIScrollViewDelegate {
 			self.currentTemperature = (temperatureDict["current_temperature"] as? Double) ?? 0.0
 			let history = temperatureDict["temperature_history"] as? [String: AnyObject] ?? [:]
 			self.temperatureHistory.removeAll()
-			for (key, value) in history {
+			// get the latest 12 results
+			for (key, value) in history.prefix(12) {
 				let date = Date(timeIntervalSince1970: TimeInterval(key) ?? 0.0)
 				let temperature = (value as? [String: AnyObject] ?? [:])["temperature"] as? Double ?? 0.0
 				let historicTempterature = HistoricTemperature(date: date, temperature: temperature)
